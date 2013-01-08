@@ -24,6 +24,7 @@ Vaggelis Tsatsis
 ~test.loop;
 ~test.stop;
 ~test.atEnd
+~test.immediate
 
 ~testResp1 = RespTags.do('/tags', 1, nil);
 ~testResp1.action = {"testTag: 1".postln};
@@ -68,7 +69,7 @@ SendTags {
 				steppattern.source = Pseq(step, inf);
 				~tagSync.source = Pseq(step, inf).asStream;
 
-				// AB: -Poia i diafora tou verbose?
+				// AB: -Poia i diafora tou verbose? Pote xreisimopoioume to false?
 				verbose.switch(
 					true, {
 						num = tags.numChannels;

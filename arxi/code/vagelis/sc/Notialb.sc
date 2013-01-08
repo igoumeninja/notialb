@@ -43,11 +43,6 @@ Notialb{
 
 }
 
-
-
-
-
-
 /*
 Notialb.load;
 Notialb.playAfterEisagogi;

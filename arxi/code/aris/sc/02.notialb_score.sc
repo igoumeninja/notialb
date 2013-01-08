@@ -437,7 +437,7 @@ Notialb_Score {
 
 						}.fork;
 					});
-					if ((~meterCount > 47) && (~meterCount < 58) , {
+					if ((~meterCount > 38) && (~meterCount < 58) , {
 						{
 							OF.rect([~screen1,~screen2,~screen3].choose,0,~screenWidth,~height, 255,255,255,255);
 							0.1.wait;
